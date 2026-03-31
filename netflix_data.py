@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from math import ceil
 from random import shuffle
 import sqlite3

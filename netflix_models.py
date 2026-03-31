@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from tensorboardX import SummaryWriter
 import torch as T
 import torch.utils.data

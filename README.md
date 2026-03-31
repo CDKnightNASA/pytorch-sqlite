@@ -6,7 +6,11 @@ This code uses the netflix prize dataset as an example, but the same idea can be
 
 ## Running
 
-### 1. Download netflix prize data
+### 1. Install prerequisites
+
+`pip install pandas tqdm tensorboardX`
+
+### 2. Download netflix prize data
 
 The data should be downloaded from:
 
@@ -27,7 +31,7 @@ probe.txt.gz
 qualifying.txt.gz
 ```
 
-### 2. Run `ingest_netflix.py` to construct a sqlite db
+### 3. Run `ingest_netflix.py` to construct a sqlite db
 
 Note this can take a while to run as it iterates over ~ 600MB of `combined_data_*.txt.gz` files and writes out a sqlite file. Writing the sqlite file in particular takes a while.
 
